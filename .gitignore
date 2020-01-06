@@ -88,3 +88,15 @@ fabric.properties
 /__pycache__/thread_worker.cpython-37.pyc
 *.log
 *.json
+venv
+venv/*
+# python byte code
+*.pyc
+
+# sqlite
+*.sqlite3
+
+staticfiles
+.env
+*.xml
+*.iml

@@ -1,0 +1,3 @@
+tinydb
+websockets
+sortedcontainers
