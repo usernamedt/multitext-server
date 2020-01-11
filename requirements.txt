@@ -1,3 +1,6 @@
+pytest
+pytest-asyncio
+pytest-cov
 tinydb
 websockets
 sortedcontainers

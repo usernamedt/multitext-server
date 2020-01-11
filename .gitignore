@@ -88,8 +88,13 @@ fabric.properties
 /__pycache__/thread_worker.cpython-37.pyc
 *.log
 *.json
+
+# virtual environment
 venv
 venv/*
+venv-p38
+venv-p38/*
+
 # python byte code
 *.pyc
 

@@ -15,8 +15,8 @@ class UserService:
     and shared files opening
     """
 
-    def __init__(self, users_dir):
-        db = TinyDB('users.json')
+    def __init__(self, users_dir, db_name='users.json'):
+        db = TinyDB(db_name)
         self.users = db.table('users')
         self.users_dir = users_dir
         self.users_dir.mkdir(parents=True, exist_ok=True)
@@ -205,6 +205,3 @@ class UserService:
         """
         user = self.get_user(username)
         return user["files"]
-
-
-
